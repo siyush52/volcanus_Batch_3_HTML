@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+    <style>
+        .container {
+            background-color: rgb(64, 64, 199);
+            border: 5px solid rgb(162, 20, 20);
+            height: 500px;
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            justify-content:space-around;
+            align-items: center;
+            
+            
+        }
+
+        .box {
+            border: 4px solid white;
+            height: 100px;
+            width: 100px;
+            margin: 6px;
+            padding: 2px;
+        }
+        #a{
+            background-color: red;
+        }
+        #b{
+            background-color: aqua;
+
+        }
+        #c{
+            background-color: beige;
+        }
+        #d{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="a" class="box"></div>
+        <div id="b" class="box"></div>
+        <div id="c" class="box"></div>
+        <div id="d" class="box"></div>
+    </div>
+</body>
+
+</html>

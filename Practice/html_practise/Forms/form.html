@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        :hover::placeholder {
+            background-color: aquamarine;
+            color: black;
+            font-size: 18px;
+        }
+        legend{
+            color: blue;
+            background-color: aqua;
+        }
+        #vv{
+            background-color: black;
+            color: aliceblue;
+
+        }
+        #vv:hover{
+            font-style: italic;
+            color: rgb(19, 183, 109);
+        }
+        legend:hover{
+            background-color: blueviolet;
+            color: azure;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="Email">Enter your Email</label>
+        <input type="text" id="Email" placeholder="  Enter Email" style="text-align: center;font-style: oblique;">
+        <br>
+        <br>
+        <label for="Password">Enter your Password</label>
+        <input type="text" id="Password" placeholder="Password" style="font-style: italic;">
+        <br>
+        <br>
+        <button value="">submit</button>
+        <br>
+        <br>
+        <label for="date1">Choose Date</label>
+        <input type="datetime-local" id="date1">
+        <br>
+        <br>
+        <label for="11">Coose Dishes</label>
+        <select name="Dishes" id="11">
+            <option value="paneer">PANEER</option>
+            <option value="Aloo">ALOO</option>
+            <option value="Tomato">TOMATO</option>
+        </select>
+        <br>
+        <br>
+
+
+        <textarea name="Enter Details" id="" cols="30" rows="10">Enter details</textarea>
+            <br>
+            <br>
+            <br>
+            <fieldset id="vv">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, quaerat!</p>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset> <legend> html kesa lag rha h </legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio nesciunt ut provident tempora maiores minima at, soluta, doloribus id quasi, qui magnam ad sequi delectus ea unde assumenda consequatur!
+            </fieldset>
+            <br>
+            <br>
+            <!-- input types -textfield
+                        -button
+                        -radio
+                        -checkbox
+                        -file-select
+                        -image
+                        -password
+                        -email
+                        -date n time -->
+
+            <label for="textfield">textfield</label>
+            <input type="text" id="textfield">
+            <br>
+            <br>
+            <br>
+            <label for="button"></label>
+            <input type="submit" value="hello" id="button" >
+            <br>
+            <br>
+
+            <br>
+            <label for="radio">yo</label>
+            <input type="radio" name="radio" id="radio">
+            <br>
+            <br>
+            <br>
+            <label for="checkbox">male</label>
+            <input type="checkbox" name="" id="checkbox">
+            <label for="checkbox2">Female</label>
+            <input type="checkbox" name="" id="checkbox2">
+            <br>
+            <br>
+            <br>
+            <label for="file">upload</label>
+            <input type="file" name="" id="file">
+            <br>
+            <br>
+            <br>
+            <label for="img">click on this image arrow</label>
+            <input type="image" name="" id="img" alt="sorry" src="arrow.png" width="30px">
+            <br>
+            <br>
+            <label for="pass">password</label>
+            <input type="password" name="" id="pass">
+            <br>
+            <br>
+            <label for="date">choose date </label>
+            <input type="date" name="" id="date">
+    </form>
+</body>
+
+</html>

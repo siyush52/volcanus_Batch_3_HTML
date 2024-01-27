@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Form</title>
+    <style>
+        body{
+            background-color:RGB(0, 155, 100);
+        }
+        h1 {
+            border-style: ridge;
+            border-radius: 10px;
+            width: fit-content;
+            background-color: rgb(184, 112, 19);
+        }
+        div{
+            width: 500px;
+            margin: auto;
+            background-color: RGB(0, 155, 130);
+            color: aliceblue;
+            padding: 40px;
+            border: 5rem;
+            border-color: rgb(154, 14, 14);
+            
+        }
+        h1:hover{
+            font-style: italic;
+            background-color: white;
+            color: rgb(184, 112, 19);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+    <form action="">
+        <h1>
+            Event Registration
+
+        </h1>
+        <label for="name">Name :</label><br>
+        <input type="Name" id="name">
+        <br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email">
+        <br>
+        <label for="call">Phone :</label><br>
+        <input type="tel" id="call">
+        <br>
+        <label for="occupation">occupation :</label><br>
+        <select name="occupation" id="occupation">
+
+            <option value="student">student</option>
+            <option value="farmer">farmer</option>
+            <option value="office">office</option>
+
+
+        </select>
+        <br>
+        <br>
+
+        <fieldset style="width: 20rem;">
+            <legend style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Topic of
+                interest</legend>
+
+
+            <label for="checkbox2">JAVA</label>
+            <input type="checkbox" name="checkbox" id="checkbox2">
+
+            <label for="checkbox3">CSS</label>
+            <input type="checkbox" name="checkbox" id="checkbox3">
+
+            <label for="checkbox0">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox0">
+            <br>
+
+
+
+        </fieldset><br>
+        <br>
+
+        <label for="">upload resume :</label>
+        <input type="file" name="" id="file">
+        <br>
+        <br>
+        <label for="num">years of experience</label>
+        <input type="number" name="" id="" min="4" max="10">
+        <br>
+        <br>
+        <label for="text">Comments :</label><br>
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+        <button type="button">Register</button>
+    </div>
+
+    </form>
+</body>
+
+</html>
