@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        button{
+            background-color: blueviolet;
+            padding: 20px;
+            color: white;
+            font-size: 2rem;
+            border-radius: 10px;
+            border: 2px solid red;
+
+        }
+        button:hover{
+            background-color: red;
+            padding: 30px;
+        }
+        .item:hover p{
+            color: aqua;
+            display: none;
+        }
+        .item{
+            height: 400px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <button class=".btn">submit</button>
+   <div class="item"> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quos, animi incidunt provident quaerat magnam voluptatum, ipsa voluptas rerum, dolore in. Perferendis aliquid laboriosam aperiam assumenda repellat, magni sunt ipsam.</p></div>
+
+</body>
+</html>

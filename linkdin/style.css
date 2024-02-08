@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(133, 27, 27);
+    height: 200vh;
+}
+.container{
+ background-color:rgb(47, 24, 24);
+ width: 100%;
+ position: fixed;
+ z-index: 5;
+}
+.nav{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+  margin-left: 2rem;
+ 
+ 
+}
+.fa-brands {
+    color:rgb(44, 7, 177);
+    font-size: xx-large;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+#search{
+    height: 30px;
+    width: 18rem;
+color: white;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    border-radius: 8px;
+    background-color: rgb(190,190,190);
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+.right{
+    display: flex;
+    gap: 1rem;
+    margin-right: 15rem;
+    gap: 3rem
+    ;
+
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(61, 58, 58);
+    
+    
+}
+h1{
+    font-size: large;
+}
+.fa-solid{
+    font-size: larger;
+    margin-bottom: 3px;
+}
+.rightbar{
+    height: 1000px;
+    width: 400px;
+    background-color: orange;
+    position: relative;
+    left: 1100px;
+    top: 5rem;
+    border-radius: 20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+
+}
+.rightbar:hover img{
+    scale: 1.2;
+    transition: all ease 1s;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+p{margin-top: 2rem;}
+#kat{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+img{
+    height: 22rem;
+    width: 20rem;
+    margin: 2rem;
+    margin-left: 3rem;
+    object-fit: cover;
+    
+}
+
+
+.leftbar{
+    height: 800px;
+    width: 400px;
+    background-color: cadetblue;
+    position: relative;
+    bottom: 800px;
+    left: 2rem;
+}
+.img2{
+    position: sticky;
+    top: 2rem;
+}
+

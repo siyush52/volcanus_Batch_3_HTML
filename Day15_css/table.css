@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+     color: rgb(23, 2, 2);
+}
+table{
+    background-color: rgb(160, 10, 35);
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-spacing: 20px;
+    margin-top: 4rem;
+    border: 2px solid violet;
+
+}
+th{
+    background-color: aqua;
+font-size: 1.5rem;
+border: 3px solid white;
+padding: 10px;
+}
+td{
+    text-align: center;
+background-color: beige;
+font-size: 1.3rem;
+padding: 10px;
+}
+td:hover, th:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 100px;
+    
+
+}
